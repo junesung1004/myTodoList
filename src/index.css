@@ -1,0 +1,41 @@
+/* 전체 css 설정 */
+@font-face {
+  font-family: "june";
+  src: url("/public/NanumPenScript-Regular.ttf");
+}
+
+body * {
+  font-family: "june";
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
+  cursor: pointer;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background-color: rgb(246, 246, 246);
+  display: flex;
+}
+
+/* 이 코드는 전체안에서 app컴포넌트만 css를 설정하는 코드 */
+/* 이 root는 id값을 의미함   createRoot(document.getElementById("root")).render(*/
+#root {
+  background-color: white;
+  max-width: 600px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+  min-height: 100vh;
+  box-shadow: rgba(100, 100, 100, 0.2) 0px 0px 29px 0px;
+}

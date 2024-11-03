@@ -1,0 +1,17 @@
+.button {
+  background-color: rgb(236, 236, 236);
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  white-space: nowrap; /* 화면이 줄어들더라도 텍스트 줄바꿈 X */
+}
+
+.button_POSITIVE {
+  background-color: rgb(100, 201, 100);
+  color: white;
+}
+
+.button_NEGATIVE {
+  background-color: rgb(253, 86, 95);
+  color: white;
+}
